@@ -33,4 +33,4 @@ jobs:
     - name: Install Surge
       run: npm install --global surge
     - name: Deploy On Surge
-      run: surge ./build assignmenttwo.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build assignmentwo-arsalan.sh --token ${{ secrets.SURGE_TOKEN }}
